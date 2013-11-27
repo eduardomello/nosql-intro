@@ -1,0 +1,11 @@
+<script id="tpl-completeField" type="text/html">
+	{{#questions}}
+		{{question}} <input type="text" data-answer="{{answer}}" /> {{end}}
+	{{/questions}}	
+</script>
+
+<script id="tpl-step" type="text/template">
+	{{#steps}}
+		<li><a href="{{step-id}}">{{step-name}}</a></li>
+	{{/steps}}
+</script>

@@ -1,0 +1,9 @@
+{
+	"questions": [
+		{"question": "RDBMS significa ", "answer": "Relational Database Management System", "end": "." },
+		{"question": "Dados em um RDBMS é estruturado em ", "answer": "tabelas" },
+		{"question": "Estes(as), por sua vez, são estruturados(as) em ", "answer": "linhas"},
+		{"question": " que, finalmente, é um conjunto de ", "answer": "campos", "end": "."}.
+	]
+
+}
