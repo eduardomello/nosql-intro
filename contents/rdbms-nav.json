@@ -1,0 +1,9 @@
+{
+ "area_title":"RDBMS",
+ "steps": [
+ 	{ "step-id":"rdbms-ex1", "step-name":"1. O quê é?", "step-template": "complete-fields-ex"},
+ 	{ "step-id":"rdbms-intro", "step-name": "2. introdução"},
+ 	{ "step-id":"rdbms-ex2", "step-name": "3. Exercício"},
+	{ "step-id":"rdbms-conclusao", "step-name":"4. Conclusão"}
+ ]
+}

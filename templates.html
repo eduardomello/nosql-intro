@@ -1,11 +1,25 @@
 <script id="tpl-completeField" type="text/html">
-	{{#questions}}
-		{{question}} <input type="text" data-answer="{{answer}}" /> {{end}}
-	{{/questions}}	
+	<h2>{{intro}}</h2>
+	<p class="questions">
+		{{#questions}}
+			{{question}} <input class="complete-field" type="text" data-answer="{{answer}}" /> {{end}}
+		{{/questions}}	
+	</p>
+	<div class="result"></div>
+	<div class="buttons">		
+		<a class="see-answer btn btn-danger" role="button">Ver resposta</a>
+		<a class="answer btn btn-primary" role="button" data-right="{{right}}" data-wrong="{{wrong}}">Responder!</a>		
+	</div>
+	
 </script>
 
 <script id="tpl-step" type="text/template">
-	{{#steps}}
-		<li><a href="{{step-id}}">{{step-name}}</a></li>
-	{{/steps}}
+	<h1>{{area_title}}</h1>
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul id="nav-template" class="nav navbar-nav">
+    	  	{{#steps}}
+				<li><a href="{{step-id}}">{{step-name}}</a></li>
+			{{/steps}}
+    	</ul>
+  	</div>
 </script>

@@ -1,1 +1,14 @@
 section#page { display:none;}
+#step-nav { padding:48px 48px 0 48px;}
+	#step-nav h1 { font-size: 16px; font-weight: bold; padding-left: 30px;}
+	#step-content { padding-top: 20px;}
+	#step-content .complete-field { border-top: 0; border-left:0; border-right:0; border-bottom: 1px solid black; padding: 0; margin: 0; width:280px;}
+		#step-content .complete-field.right-answer { color: green; }
+		#step-content .complete-field.wrong-answer { color: red; }
+		#step-content .complete-field.show-answer { color: gray;}
+	#step-content h2 { font-size: 18px; font-weight: bold; }
+	#step-content .questions { line-height: 250%; font-size: 14px;}
+	#step-content .result {  text-align: right; font-weight: bold; padding-bottom: 5px; }
+	#step-content .buttons { float: right; }
+		#step-content .buttons .btn-danger { visibility: hidden; }
+	#step-content .questions { padding-bottom: 20px;}
